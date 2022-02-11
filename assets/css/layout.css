@@ -1,0 +1,59 @@
+.hover-text:hover {
+  border: 1px solid;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-image: linear-gradient(
+    rgb(192, 107, 107),
+    rgb(212, 154, 154),
+    rgb(192, 93, 93)
+  );
+  color: white;
+}
+
+.bg {
+  background-image: linear-gradient(
+    to left,
+    /* rgb(104, 161, 204), */ /* rgb(104, 166, 204) */ rgb(189, 96, 96),
+    rgb(186, 186, 206)
+  );
+  border-bottom: 1px solid black;
+}
+.searchInput {
+  background-color: transparent;
+  border: 1px solid rgb(2, 2, 2);
+}
+li {
+  vertical-align: middle;
+}
+ul {
+  width: auto;
+}
+
+a,
+button {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(225, 193, 255);
+}
+
+td,
+th {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.tablediv {
+  width: 80vw;
+  margin: auto;
+}
+
+table.dataTable tbody tr {
+  background-color: transparent;
+}
